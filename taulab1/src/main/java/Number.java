@@ -56,5 +56,11 @@ public class Number {
         }
     }
 
+    public void power(int y){
+        for (int i = 0; i < y;i++){
+            x = x * x;
+        }
+    }
+
 
 }
