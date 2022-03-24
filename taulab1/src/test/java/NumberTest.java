@@ -1,4 +1,3 @@
-import static org.junit.Assert.*;
 import org.junit.*;
 
 public class NumberTest {
@@ -48,6 +47,8 @@ public class NumberTest {
         Assert.assertEquals(99, counter.getX());
     }
 
+
+
     @Test
     public void divideCorrectly() {
         Number counter = new Number(99);
@@ -61,5 +62,13 @@ public class NumberTest {
         counter.module(9);
         Assert.assertEquals(8, counter.getX());
     }
+    @Test
+    public void powerCorrectly() {
+        Number counter = new Number(2);
+        counter.power(3);
+        Assert.assertEquals(256, counter.getX());
+    }
+
+
 
 }
