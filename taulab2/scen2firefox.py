@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import time
 
-driver = webdriver.Firefox('/Users/kuba/desktop/chromedriver')
+driver = webdriver.Firefox('/Users/kuba/desktop/firefoxdriver')
 
 driver.get("https://www.plemiona.pl/")
 time.sleep(3)
