@@ -1,1 +1,1 @@
-# lau1
+repository for Automated Testing course 
